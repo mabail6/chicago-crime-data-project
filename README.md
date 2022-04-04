@@ -31,6 +31,8 @@ recidivism.
 
 Using steps provided by professor Jelveh, this project is a complete data science project from beginning to end. The datasets provided are sourced from the Chicago Police Department directly from their website (https://home.chicagopolice.org/).
 
+We were prompted with providing deliverables to help choose between two programs aimed at reducing crime in the Chicago area. The first steps after loading the data was to do exploratory data analysis - looking at recidivism within the Chicago area, as well as rearrests among different demographics.
+
 
 (Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
 
