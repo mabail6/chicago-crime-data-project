@@ -1,4 +1,4 @@
-# Chicago Crime Data Prokect
+# Chicago Crime Data Project
 
 #### -- Project Status: Completed
 
