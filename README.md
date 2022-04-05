@@ -31,28 +31,13 @@ recidivism.
 
 Using steps provided by professor Jelveh, this project is a complete data science project from beginning to end. The datasets provided are sourced from the Chicago Police Department directly from their website (https://home.chicagopolice.org/).
 
-We were prompted with providing deliverables to help choose between two programs aimed at reducing crime in the Chicago area. The first steps after loading the data was to do exploratory data analysis - looking at recidivism within the Chicago area, as well as rearrests among different demographics.
+I was prompted with providing deliverables to help choose between two programs aimed at reducing crime in the Chicago area. Is there information from the data that could hint to higher rates of rearrests? If I could find an answer to this question than it would be seemingly possible to find an optimal program that could help reduce crime rates.
 
+The first steps after loading the data was to do exploratory data analysis - looking at recidivism within the Chicago area, as well as rearrests among different demographics. Next step was feature generation. Using the analysis in the previous step, I could create features: data points not given in the original data. In this case, creating a feature that indicated whether the incident was drug or alcohol related. A second feature was to indicate at what age an individual was first arrested. A follow up to feature generation is to see how well the features are related to the outcomes. This can be done through visualizations.
 
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
+Once the features are generated, the models can be built. I first split the data into test/train, cleaned the data, then set up the parameters. For this project, I chose to use the Random Forest classifier model.
 
-## Needs of this project
-
-## Getting Started
-
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
-
-    *If using offline data mention that and how they may obtain the data from the froup)*
-    
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
-
-*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*  
-
-5. Follow setup [instructions](Link to file)
+The final steps were to assess the model, then apply the model to the original hypothesis and create the deliverables. Overall this was a great project that dealt with real world data and gave great insight to how to build a data project from start to finish.
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
+* [chicago_crime_data_project.ipynb](https://github.com/mabail6/Chicago-Crime-Data-Project/blob/master/chicago_crime_data_project.ipynb)
